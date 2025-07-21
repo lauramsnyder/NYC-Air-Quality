@@ -14,7 +14,7 @@ Basic data structure includes the raw data and a dim table that provides a summa
 
 Tasks Performed
 
-Data Exploration and Validation - Performed general data exploration and validation checks of the air_quality dataset
+Data Exploration and Validation - Performed general data exploration and validation checks of the air_quality dataset with 19,000 rows of data.
 
 Dimension Table Set Up - Analyzed columns to break out into dimension tables or any that required further explanation. I found that most columns did not need to be broken out because the raw data was concise on column structure, but the one column that needed further explanation was the geo_type_name column. The data dictionary for this dataset mentioned some abbreviations and provided a brief summary on what each of the geography types were in New York City specifically, so in order to get the most out of this dataset for the end user, a dimension table was created with the summaries of each of those types. Someone who works with air quality data in NYC consistently and directly would understand these geographic types, but in this case the view is being customized to any individual who may or may not know (like I originally didn’t as someone who does not live in NYC or know much about air quality measurements) what the different geographic types are in measuring air quality.
 
