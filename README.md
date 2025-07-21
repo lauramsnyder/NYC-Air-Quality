@@ -1,14 +1,14 @@
 # Air Quality In NYC - SQL Project Case Study
 
-#Overview
+# Overview
 
 Showcasing my ability to work with large and complex datasets. This project shows working with PostgreSQL to import a csv dataset, create the structure and relationships between fact and dimension tables, and turn the data into actionable and understandable insights to answer real-world questions.
 
-#Purpose
+# Purpose
 
 Air pollution is one of the most important environmental threats to urban populations and while all people are exposed, pollutant emissions, levels of exposure, and population vulnerability vary across neighborhoods. Exposures to common air pollutants have been linked to respiratory and cardiovascular diseases, cancers, and premature deaths. These indicators provide a perspective across time and NYC geographies to better characterize air quality and health in NYC.
 
-Data Structure
+# Data Structure
 
 Basic data structure includes the raw data and a dim table that provides a summary of the different geographical types for further understanding of the areas being measured in the numeric outputs.
 
